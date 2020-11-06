@@ -45,14 +45,14 @@ Version 1.0.9 is Vue.js 1.0 compatible <br>
   ``` js
   // ES6  
   //For Vue.js 1.0 only
-  import VueDraggable from 'vuedraggable'
+  import VueDraggable from 'vuedraggable-multi'
   import Vue from 'vue'
   Vue.use(VueDraggable)
 
   // ES5 
   //For Vue.js 1.0
   var Vue = require('vue')
-  Vue.use(require('vuedraggable'))
+  Vue.use(require('vuedraggable-multi'))
   ```
 
 - #### For `<script>` Include

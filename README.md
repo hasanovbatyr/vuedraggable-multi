@@ -38,32 +38,10 @@ Find this project useful? You can buy me a :coffee: or a :beer:
 
 ## Installation
 
-### With npm or yarn 
 
 ```bash
-yarn add vuedraggable-multi
-
 npm i -S vuedraggable-multi
 ```
-
-**Beware it is vuedraggable for Vue 2.0 and not vue-draggable which is for version 1.0**
-
-### with direct link 
-```html
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.5.2/vue.min.js"></script>
-<!-- CDNJS :: Sortable (https://cdnjs.com/) -->
-<script src="//cdn.jsdelivr.net/npm/sortablejs@1.8.4/Sortable.min.js"></script>
-<!-- CDNJS :: Vue.Draggable (https://cdnjs.com/) -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/Vue.Draggable/2.20.0/vuedraggable.umd.min.js"></script>
-
-```
-
-[cf example section](https://github.com/SortableJS/Vue.Draggable/tree/master/example)
-
-## For Vue.js 2.0
-
-Use draggable component:
 
 ### Typical use:
 ``` html
@@ -231,7 +209,6 @@ checkMove: function(evt){
     return (evt.draggedContext.element.name!=='apple');
 }
 ```
-See complete example: [Cancel.html](https://github.com/SortableJS/Vue.Draggable/blob/master/examples/Cancel.html), [cancel.js](https://github.com/SortableJS/Vue.Draggable/blob/master/examples/script/cancel.js)
 
 #### componentData
 Type: `Object`<br>
@@ -307,7 +284,6 @@ The selected class is the HTML class that will be applied to the selected elemen
   Events are called whenever onStart, onAdd, onRemove, onUpdate, onEnd, onChoose, onUnchoose, onSort, onClone, onSelect, onDeselect are fired by Sortable.js with the same argument.<br>
   [See here for reference](https://github.com/RubaXa/Sortable#event-object-demo) and [see here for MultiDrag reference](https://github.com/SortableJS/Sortable/tree/master/plugins/MultiDrag#options)
 
-  Note that SortableJS OnMove callback is mapped with the [move prop](https://github.com/SortableJS/Vue.Draggable/blob/master/README.md#move)
 
 HTML:
 ```HTML
@@ -361,30 +337,4 @@ Ex:
     </div>
     <button slot="footer" @click="addPeople">Add</button>
 </draggable>
-```
- ### Gotchas
- 
- - Vue.draggable children should always map the list or value prop using a v-for directive
-   * You may use [header](https://github.com/SortableJS/Vue.Draggable#header) and [footer](https://github.com/SortableJS/Vue.Draggable#footer) slot to by-pass this limitation.
- 
- - Children elements inside v-for should be keyed as any element in Vue.js. Be carefull to provide revelant key values in particular:
-    * typically providing array index as keys won't work as key should be linked to the items content
-    * cloned elements should provide updated keys, it is doable using the [clone props](#clone) for example
-
-
- ### Example 
-  * [Clone](https://sortablejs.github.io/Vue.Draggable/#/custom-clone)
-  * [Handle](https://sortablejs.github.io/Vue.Draggable/#/handle)
-  * [Transition](https://sortablejs.github.io/Vue.Draggable/#/transition-example-2)
-  * [Nested](https://sortablejs.github.io/Vue.Draggable/#/nested-example)
-  * [Table](https://sortablejs.github.io/Vue.Draggable/#/table-example)
- 
- ### Full demo example
-
-[draggable-example](https://github.com/David-Desmaisons/draggable-example)
-
-## For Vue.js 1.0
-
-[See here](documentation/Vue.draggable.for.ReadME.md)
-
 ```
