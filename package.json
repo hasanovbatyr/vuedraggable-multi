@@ -1,21 +1,21 @@
 {
-  "name": "vuemultidraggable",
+  "name": "vuemultidragg",
   "version": "1.0.0",
   "description": "draggable component for vue",
   "license": "ISC",
-  "main": "dist/vuedraggable.umd.min.js",
+  "main": "dist/vuemultidrag.umd.min.js",
   "types": "src/vuedraggable.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hasanovbatyr/vuemultidraggable"
+    "url": "git+https://github.com/hasanovbatyr/vuemultidrag"
   },
   "scripts": {
   },
   "author": "Batyr Khasanov",
   "bugs": {
-    "url": "https://github.com/hasanovbatyr/vuemultidraggable/issues"
+    "url": "https://github.com/hasanovbatyr/vuemultidrag/issues"
   },
-  "homepage": "https://github.com/hasanovbatyr/vuemultidraggable#readme",
+  "homepage": "https://github.com/hasanovbatyr/vuemultidrag#readme",
   "keywords": [
     "vue",
     "vuejs",
@@ -62,5 +62,5 @@
     "dist/*.js",
     "src/*"
   ],
-  "module": "dist/vuedraggable.common.js"
+  "module": "dist/vuemultidrag.common.js"
 }
