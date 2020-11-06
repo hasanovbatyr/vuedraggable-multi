@@ -1,8 +1,8 @@
 {
   "name": "vuedraggable-multi",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "draggable component for vue",
-  "license": "ISC",
+  "license": "MIT",
   "main": "dist/vuedraggable.umd.min.js",
   "types": "src/vuedraggable.d.ts",
   "repository": {
