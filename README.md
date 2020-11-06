@@ -1,5 +1,4 @@
-<p align="center"><img width="140"src="https://raw.githubusercontent.com/SortableJS/Vue.Draggable/master/logo.svg?sanitize=true"></p>
-<h1 align="center">Vue.Draggable</h1>
+<h1 align="center">Multi Draggble</h1>
 
 Vue component (Vue.js 2.0) or directive (Vue.js 1.0) allowing drag-and-drop and synchronization with view model array.
 
@@ -136,9 +135,8 @@ The main difference is that `list` prop is updated by draggable component using 
 **Do not use in conjunction with value prop.**
 
 #### All sortable options
-New in version 2.19
 
-Sortable options can be set directly as vue.draggable props since version 2.19.
+Sortable options can be set directly as vue.draggable props since 
 
 This means that all [sortable option](https://github.com/RubaXa/Sortable#options) are valid sortable props with the notable exception of all the method starting by "on" as draggable component expose the same API via events.
 
