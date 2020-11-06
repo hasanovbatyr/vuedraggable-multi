@@ -19,21 +19,6 @@ Based on and offering all features of [Sortable.js](https://github.com/RubaXa/So
 * Events reporting any changes when full control is needed
 * Reuse existing UI library components (such as [vuetify](https://vuetifyjs.com), [element](http://element.eleme.io/), or [vue material](https://vuematerial.io) etc...) and make them draggable using `tag` and `componentData` props
 
-## Backers
-
- <a href="https://flatlogic.com/admin-dashboards">
- <img width="190" style="margin-top: 10px;" src="https://flatlogic.com/assets/logo-d9e7751df5fddd11c911945a75b56bf72bcfe809a7f6dca0e32d7b407eacedae.svg">
- </a>
-
-Admin Dashboard Templates made with Vue, React and Angular.
-
-
-## Donate
-
-Find this project useful? You can buy me a :coffee: or a :beer:
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=GYAEKQZJ4FQT2&currency_code=USD&source=url)
-
 
 ## Installation
 

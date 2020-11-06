@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import draggable from "@/vuedraggable";
+import draggable from "@/vuedraggable-multi";
 let idGlobal = 8;
 export default {
   name: "custom-clone",

@@ -50,7 +50,7 @@
   </div>
 </template>
 <script>
-import draggable from "@/vuedraggable";
+import draggable from "@/vuedraggable-multi";
 
 export default {
   name: "multi-drag",

@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import draggable from "@/vuedraggable";
+import draggable from "@/vuedraggable-multi";
 export default {
   name: "table-column-example",
   display: "Table Column",

@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import draggable from "@/vuedraggable";
+import draggable from "@/vuedraggable-multi";
 
 let id = 1;
 export default {

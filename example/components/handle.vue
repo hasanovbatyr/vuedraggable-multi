@@ -30,7 +30,7 @@
 
 <script>
 let id = 3;
-import draggable from "@/vuedraggable";
+import draggable from "@/vuedraggable-multi";
 export default {
   name: "handle",
   display: "Handle",

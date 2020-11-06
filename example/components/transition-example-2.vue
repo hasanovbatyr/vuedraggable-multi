@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import draggable from "@/vuedraggable";
+import draggable from "@/vuedraggable-multi";
 
 const message = [
   "vue.draggable",

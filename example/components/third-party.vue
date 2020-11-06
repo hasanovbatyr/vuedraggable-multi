@@ -32,7 +32,7 @@
 
 <script>
 import "element-ui/lib/theme-chalk/index.css";
-import draggable from "@/vuedraggable";
+import draggable from "@/vuedraggable-multi";
 
 export default {
   name: "third-party",
