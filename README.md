@@ -1,4 +1,4 @@
-<h1 align="center">Multi Draggble</h1>
+<h1 align="center">VueDraggable Multi</h1>
 
 Vue component (Vue.js 2.0) or directive (Vue.js 1.0) allowing drag-and-drop and synchronization with view model array.
 
