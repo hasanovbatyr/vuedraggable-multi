@@ -1,6 +1,6 @@
 {
   "name": "vuedraggable-multi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "draggable component for vue",
   "license": "ISC",
   "main": "dist/vuedraggable.umd.min.js",
@@ -9,8 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/hasanovbatyr/vuedraggable-multi"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Batyr Khasanov",
   "bugs": {
     "url": "https://github.com/hasanovbatyr/vuedraggable-multi/issues"

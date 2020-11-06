@@ -41,9 +41,9 @@ Find this project useful? You can buy me a :coffee: or a :beer:
 ### With npm or yarn 
 
 ```bash
-yarn add vuemultidraggable
+yarn add vuedraggable-multi
 
-npm i -S vuemultidraggable
+npm i -S vuedraggable-multi
 ```
 
 **Beware it is vuedraggable for Vue 2.0 and not vue-draggable which is for version 1.0**
@@ -73,7 +73,7 @@ Use draggable component:
 ```
 .vue file:
 ``` js
-  import draggable from 'vuedraggable'
+  import draggable from 'vuedraggable-multi'
   ...
   export default {
         components: {
